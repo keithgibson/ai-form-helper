@@ -33,7 +33,7 @@ export default [{
 
         parserOptions: {
             project: "tsconfig.json",
-            tsconfigRootDir: "/home/melihy/work/injectjq",
+            tsconfigRootDir: __dirname,
         },
     },
 
