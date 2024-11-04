@@ -1,0 +1,39 @@
+{
+  "name": "ai-form-helper",
+  "version": "1.0.0",
+  "private": true,
+  "main": "aiFormHelper.js",
+  "scripts": {
+    "build": "rm -rf dist/ && NODE_ENV=production webpack",
+    "dev": "webpack serve --mode development"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "openai": "^4.70.2"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/js": "^9.14.0",
+    "@types/jquery": "^3.5.32",
+    "@types/tampermonkey": "^5.0.3",
+    "@types/url-regex-safe": "^1.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.12.2",
+    "@typescript-eslint/parser": "^8.12.2",
+    "esbuild": "^0.24.0",
+    "esbuild-register": "^3.6.0",
+    "eslint": "^9.14.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "globals": "^15.11.0",
+    "prettier": "^3.3.3",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.6.3",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0",
+    "webpack-userscript": "^3.2.2"
+  }
+}
